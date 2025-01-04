@@ -1,0 +1,92 @@
+{
+  "units": [
+    {
+      "name": "Mini Storage 5x5",
+      "length": 5.0,
+      "width": 5.0,
+      "price": 49.99,
+      "status": "available",
+      "size": "5x5"
+    },
+    {
+      "name": "Basic Storage 5x10",
+      "length": 5.0,
+      "width": 10.0,
+      "price": 79.99,
+      "status": "rented",
+      "size": "5x10"
+    },
+    {
+      "name": "Standard Storage 10x10",
+      "length": 10.0,
+      "width": 10.0,
+      "price": 129.99,
+      "status": "available",
+      "size": "10x10"
+    },
+    {
+      "name": "Large Storage 10x15",
+      "length": 10.0,
+      "width": 15.0,
+      "price": 169.99,
+      "status": "available",
+      "size": "10x15"
+    },
+    {
+      "name": "Extra Large Storage 10x20",
+      "length": 10.0,
+      "width": 20.0,
+      "price": 199.99,
+      "status": "rented",
+      "size": "10x20"
+    },
+    {
+      "name": "Premium Storage 10x25",
+      "length": 10.0,
+      "width": 25.0,
+      "price": 249.99,
+      "status": "available",
+      "size": "10x25"
+    },
+    {
+      "name": "Value Mini 5x5",
+      "length": 5.0,
+      "width": 5.0,
+      "price": 45.99,
+      "status": "rented",
+      "size": "5x5"
+    },
+    {
+      "name": "Climate Controlled 10x10",
+      "length": 10.0,
+      "width": 10.0,
+      "price": 149.99,
+      "status": "available",
+      "size": "10x10"
+    },
+    {
+      "name": "Premium Plus 10x20",
+      "length": 10.0,
+      "width": 20.0,
+      "price": 219.99,
+      "status": "available",
+      "size": "10x20"
+    },
+    {
+      "name": "Economy 5x10",
+      "length": 5.0,
+      "width": 10.0,
+      "price": 69.99,
+      "status": "available",
+      "size": "5x10"
+    }
+  ],
+  "sizeOptions": [
+    "5x5",
+    "5x10",
+    "10x10",
+    "10x15",
+    "10x20",
+    "10x25"
+  ]
+}
