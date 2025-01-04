@@ -40,11 +40,70 @@ We are an equal opportunity employer, this means:
 
 Note: To complete all tasks, we expect it should take less than 2 hours.
 
-### Environment Setup
+### Installation Guide
 
-1. Clone this repository
-2. Configure a local PHP environment using Docker Desktop (<a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/-Download%20Docker%20Desktop-2496ED?logo=docker&logoColor=white" align="center"/></a>) and MySQL
-3. Follow instructions by LLMs
+Installation done with a Macbook Air with M1 chip.
+If you have issues installing, we highly recommend consulting:
+<a href="https://claude.ai">
+<img src="https://img.shields.io/badge/-Claude-000000?logo=anthropic&logoColor=white"/>
+</a>
+<a href="https://chat.openai.com">
+<img src="https://img.shields.io/badge/-ChatGPT-412991?logo=openai&logoColor=white"/>
+</a>
+
+#### Prerequisites
+- Git
+- Docker and Docker Compose
+- Terminal access
+
+#### Setup Instructions
+
+1. Clone the repository
+```bash
+git clone https://github.com/RedH11/show-your-skills-deeprent.git
+```
+
+2. Navigate to the project directory
+```bash
+cd show-your-skills-deeprent
+```
+
+3. Start Docker containers
+```bash
+docker-compose up -d
+```
+
+4. Set proper permissions
+```bash
+chmod -R 777 storage bootstrap/cache
+```
+
+5. Install PHP dependencies
+```bash
+docker-compose exec app composer install
+```
+
+6. Create environment file
+```bash
+cp .env.example .env
+```
+
+7. Generate application key
+```bash
+docker-compose exec app php artisan key:generate
+```
+
+#### Next Steps
+After completing these steps, your development environment should be ready. Make sure all services are running properly by checking Docker container status:
+```bash
+docker-compose ps
+```
+
+#### Accessing the Application
+Once all services are running, you can access the application by opening your web browser and navigating to:
+```
+http://localhost:8000
+```
 
 ### Screen Recording Tools
 
