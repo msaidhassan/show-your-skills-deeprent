@@ -1,66 +1,133 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://deeprent.ai" target="_blank"><img src="https://deeprent.ai/wp-content/uploads/elementor/thumbs/cropped-cropped-DeepRent-Main-Logo-qozl2gl1om1seeuc24tj7qktf2lbegg2tmpje6wqj4.webp" width="400" alt="DeepRent Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## What We Are Looking For
+DeepRent is well-funded and is looking for extremely talented PHP/Laravel developers to help pioneer a software that will make human Property Managers extinct. 
 
-## About Laravel
+You should be able to use Large Language Models (<a href="https://claude.ai"><img src="https://img.shields.io/badge/-Try%20Claude-7A56E3?logo=anthropic&logoColor=white" align="center"/></a>) to help build large and complex (yet maintainable) features in about one third the time that most competent people think possible.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Expect to work alongside talented, motivated, intense, and interesting co-workers.<p/>
+We are an equal opportunity employer, this means:
+- We don't care if you didn't go to university
+- We don't care if you have worked as a PHP/Laravel developer before
+- We don't care where you live and work from
+- We don't care if you don't speak amazing English
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**The only thing we care about is that you can produce exceptional code and we will pay you well for doing so.**
+**We encourage you to use AI tools during your job and during the technical test below.**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## How To Apply
 
-## Learning Laravel
+1. Setup the environment
+2. Start a screen recording
+3. Complete as many technical tasks as you can
+4. Submit your application to `apply@deeprent.ai`
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Note: 
+To complete all tasks, we expect it should take less than 2 hours. 
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Environment Setup
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Clone this repository
+2. composer require livewire/livewire
+2. Configure a local PHP environment using Docker Desktop (<a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/-Download%20Docker%20Desktop-2496ED?logo=docker&logoColor=white" align="center"/></a>) and MySQL
 
-## Laravel Sponsors
+### Free Screen Recording Tools You Can Use
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+**Mac Users:**
+<a href="https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac">
+  <img src="https://img.shields.io/badge/-For%20Mac%20Users:%20Use%20Quicktime%20Player-000000?logo=apple&logoColor=white"/>
+</a>
 
-### Premium Partners
+**Windows Users:**
+<a href="https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11">
+  <img src="https://img.shields.io/badge/-For%20Windows:%20Use%20The%20Game%20Bar-0078D4?logo=windows&logoColor=white"/>
+</a>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Submission Instructions
 
-## Contributing
+Email the following to `apply@deeprent.ai`
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Subject:** [POINT TOTAL] - [TIME SPENT ON TASKS] - [FULL NAME]
 
-## Code of Conduct
+**Required Contents:**
+1. Screen recording link (Google Drive or YouTube preferred)
+2. What tasks were completed (in order of completion in the video)
+3. Code package (ZIP format)
+4. A good phone number we can text you at
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+##  Technical Assessment Tasks
+Complete as many tasks as possible, it shouldn't take more than 2 hours. Tasks are organized by complexity and point value. You can find the example data files in the `/example` folder.
 
-## Security Vulnerabilities
+## Basic Tasks (1 Point Each)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 1. Success Notification Button
+**Requirements:**
+- Complete this task using the files called `success-notification-button.blade.php` / `SuccessNotificationButton.php`
+- Create a button
+- When the button is clicked it should show some form of loading animation
+- After two seconds of loading, something that says "Success" should pop up on the screen
 
-## License
+### 2. Page Toggle
+**Requirements:**
+- Complete this task using the files called `page-toggle-one.blade.php` / `PageToggleOne.php` and `page-toggle-two.blade.php` / `PageToggleTwo.php`
+- Make one page have a white background and the other have a black background
+- Make a button that says "Make background dark" that navigates the user to the dark page from the light page
+- Make a button that says "Make background light" that navigates the user to the light page from the dark page
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 3. Metric Converter
+**Requirements:**
+- Complete this task using the files called `metric-converter.blade.php` / `MetricConverter.php`
+- Make two input fields, one for feet and one for meters
+- When typing into one input field have the other input field show the converted value (bidirectionally)
+- Set appropriate decimal precision for the converted values
+- Add input validation to prevent invalid number entries
+
+### 4. Unit Size Filter
+**Requirements:**
+- Complete this task using the files called `unit-size-filter.blade.php` / `UnitSizeFilter.php`
+- Use the size options from `/example/unit-data.json`
+- Create a dropdown menu for the different unit sizes 
+- Whatever unit size is selected in the dropdown, display the unit data for that size to the user
+
+## Intermediate Tasks (3 Points Each)
+
+### 5. Unit Data Table
+**Requirements:**
+- Complete this task using the files called `unit-data-table.blade.php` / `UnitDataTable.php`
+- Create a table using provided test data from `/example/unit-data.json`
+- Sort the table by the size of the unit (smallest to largest)
+- Implement search functionality that matches search input to unit name
+
+### 6. Unit Model & Database
+**Requirements:**
+- Create a Unit model using laravel with fields for length (float), width (float), name (string), price (float), and status (string: "rented" or "available")
+- Write database migrations to set up a "units" table with the proper columns for each field in the Unit model
+- Add to the database seeder code that populates the database with test data from `/example/unit-data.json`
+
+### 7. Prorated Rent Calculator
+**Requirements:**
+- Complete this task using the files called `prorated-calculator.blade.php` / `ProratedCalculator.php`
+- Create an interface where users can enter a move-in date and a monthly rent amount
+- Calculate the prorated rent amount based on the chosen date using rules from `/example/proration-rules.json`
+- Account for different month lengths and leap years in the calculation
+
+## Advanced Tasks (5 Points Each)
+
+### 8. Unit Management CRUD Interface (Uses Tasks 5 and 6)
+**Requirements:**
+- Complete this task using the files called `unit-management.blade.php` / `UnitManagement.php`
+- Create an interface with the ability to Create, Read, Update, and Delete units listed in the table
+- Ensure all alterations show up in the units table of the database
+
+### 9. Rent Increase Planning Tool
+**Requirements:**
+- Complete this task using the files called `rent-planning.blade.php` / `RentPlanning.php`
+- Assume the property makes $3,000 in rent a month
+- Create a line graph that shows a representation of the aggregate rent income throughout a year (e.g. January $3k, February $6k, etc.)
+- Add functionality to have the user input how much rent they would like to make total throughout the year (e.g. $desiredRent = $50,000)
+- Using the $desiredRent, calculate two evenly spaced rent raises from the current day to the end of the year that would result in this desired rent amount being reached.
+- Show two vertical lines for when the rent raises would be complete, and when you hover over the lines show by how much the rent would be raised (in percent form)
+- Display monthly revenue projections based on the planned increases
+
+## Example Data
+All referenced example data files will be provided in the repository under the `example/` directory. Each file includes sample data structures and configuration options needed to complete the tasks.
