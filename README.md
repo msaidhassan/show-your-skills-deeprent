@@ -53,8 +53,9 @@ If you have issues installing, we highly recommend consulting:
 
 #### Prerequisites
 - Git
-- Docker and Docker Compose
+- Docker Desktop and Docker Compose (<a href="https://www.docker.com/products/docker-desktop/"><img src="https://img.shields.io/badge/-Download%20DockerDesktop-blue?logo=docker&logoColor=white" align="center"/></a>)
 - Terminal access
+- *optional DBeaver Desktop for database management (<a href="https://dbeaver.io/download/"><img src="https://img.shields.io/badge/-Download%20DBeaver-blue?logo=dbeaver&logoColor=black" align="center"/></a>)
 
 #### Setup Instructions
 
@@ -131,6 +132,10 @@ Email the following to `apply@deeprent.ai`
 
 ## Technical Assessment Tasks
 
+RULES:
+- You are allowed to make more files
+- You are allowed to use additional libraries
+
 ### Basic Tasks (1 Point Each)
 
 #### 1. Success Notification Button
@@ -183,14 +188,17 @@ Email the following to `apply@deeprent.ai`
 - Complete this task using the files called `prorated-calculator.blade.php` / `ProratedCalculator.php`
 - Create an interface where users can enter a move-in date and a monthly rent amount
 - Calculate the prorated rent amount based on the chosen date using rules from `/example/proration-rules.json`
+- The calculator should include the start and end date of the proration, the price per day, and the amount of days
 - Account for different month lengths and leap years in the calculation
+- Allow the user to export a PDF of the page
 
 ### Advanced Tasks (5 Points Each)
 
 #### 8. Unit Management CRUD Interface
 **Requirements:**
 - Complete this task using the files called `unit-management.blade.php` / `UnitManagement.php`
-- Create an interface with the ability to Create, Read, Update, and Delete units listed in the table
+- Create an interface with the ability to Create, Read, Update, and Delete units listed in a table (like Task 3)
+- Connect this table to a back-end MySQL database (like Task 6)
 - Ensure all alterations show up in the units table of the database
 
 #### 9. Rent Increase Planning Tool
