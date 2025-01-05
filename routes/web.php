@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\SuccessNotificationButton;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('/livewire/success-notification-button');
-});
+Route::get('/', SuccessNotificationButton::class);
