@@ -147,14 +147,14 @@ Email the following to `apply@deeprent.ai`
 - Make a button that says "Make background dark" that navigates the user to the dark page from the light page
 - Make a button that says "Make background light" that navigates the user to the light page from the dark page
 
-#### 3. Metric Converter
+#### 3. Unit Data Table
 **Requirements:**
-- Complete this task using the files called `metric-converter.blade.php` / `MetricConverter.php`
-- Make two input fields, one for feet and one for meters
-- When typing into one input field have the other input field show the converted value (bidirectionally)
-- Set appropriate decimal precision for the converted values
-- Add input validation to prevent invalid number entries
-
+- Complete this task using the files called `unit-data-table.blade.php` / `UnitDataTable.php`
+- Create a table using provided test data from `/example/unit-data.json`
+- Sort the table by the size of the unit (smallest to largest)
+- Implement search functionality that matches search input to unit name
+- Add in pagination with only 3 units per page
+- 
 #### 4. Unit Size Filter
 **Requirements:**
 - Complete this task using the files called `unit-size-filter.blade.php` / `UnitSizeFilter.php`
@@ -164,12 +164,13 @@ Email the following to `apply@deeprent.ai`
 
 ### Intermediate Tasks (3 Points Each)
 
-#### 5. Unit Data Table
+#### 5. Metric Converter
 **Requirements:**
-- Complete this task using the files called `unit-data-table.blade.php` / `UnitDataTable.php`
-- Create a table using provided test data from `/example/unit-data.json`
-- Sort the table by the size of the unit (smallest to largest)
-- Implement search functionality that matches search input to unit name
+- Complete this task using the files called `metric-converter.blade.php` / `MetricConverter.php`
+- Make two input fields, one for feet and one for meters
+- When typing into one input field have the other input field show the converted value (bidirectionally)
+- Set appropriate decimal precision for the converted values
+- Add input validation to prevent invalid number entries
 
 #### 6. Unit Model & Database
 **Requirements:**
