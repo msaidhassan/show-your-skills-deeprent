@@ -40,7 +40,7 @@ We are an equal opportunity employer, this means:
 
 Note: To complete all tasks, we expect it should take less than 2 hours.
 
-### Installation Guide
+### Environment Setup
 
 Installation done with a Macbook Air with M1 chip.
 If you have issues installing, we highly recommend consulting:
