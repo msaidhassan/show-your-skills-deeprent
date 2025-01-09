@@ -2,17 +2,29 @@
 
 <p align="center"><a href="https://deeprent.ai" target="_blank"><img src="https://deeprent.ai/wp-content/uploads/elementor/thumbs/cropped-cropped-DeepRent-Main-Logo-qozl2gl1om1seeuc24tj7qktf2lbegg2tmpje6wqj4.webp" width="400" alt="DeepRent Logo"></a></p>
 
-## Table of Contents
-1. [Position Overview](#position-overview)
-2. [Application Process](#application-process)
-   - [Environment Setup](#environment-setup)
-   - [Screen Recording Tools](#screen-recording-tools)
-   - [Submission Instructions](#submission-instructions)
-3. [Technical Assessment Tasks](#technical-assessment-tasks)
-   - [Basic Tasks (1 Point Each)](#basic-tasks-1-point-each)
-   - [Intermediate Tasks (3 Points Each)](#intermediate-tasks-3-points-each)
-   - [Advanced Tasks (5 Points Each)](#advanced-tasks-5-points-each)
-4. [Example Data](#example-data)
+- [DeepRent Developer Technical Assessment](#deeprent-developer-technical-assessment)
+   * [Position Overview](#position-overview)
+   * [Application Process](#application-process)
+      + [Environment Setup](#environment-setup)
+         - [Prerequisites](#prerequisites)
+         - [Setup Instructions](#setup-instructions)
+         - [Next Steps](#next-steps)
+         - [Accessing the Application](#accessing-the-application)
+      + [Submission Instructions](#submission-instructions)
+   * [Technical Assessment Tasks](#technical-assessment-tasks)
+      + [Basic Tasks (1 Point Each)](#basic-tasks-1-point-each)
+         - [1. Success Notification Button](#1-success-notification-button)
+         - [2. Page Toggle](#2-page-toggle)
+         - [3. Unit Data Table](#3-unit-data-table)
+         - [4. Unit Size Filter](#4-unit-size-filter)
+      + [Intermediate Tasks (3 Points Each)](#intermediate-tasks-3-points-each)
+         - [5. Metric Converter](#5-metric-converter)
+         - [6. Unit Model & Database](#6-unit-model-database)
+         - [7. Prorated Rent Calculator](#7-prorated-rent-calculator)
+      + [Advanced Tasks (5 Points Each)](#advanced-tasks-5-points-each)
+         - [8. Unit Management CRUD Interface](#8-unit-management-crud-interface)
+         - [9. Rent Increase Planning Tool](#9-rent-increase-planning-tool)
+   * [Example Data](#example-data)
 
 ## Position Overview
 
@@ -34,11 +46,9 @@ We are an equal opportunity employer, this means:
 ## Application Process
 
 1. Setup the environment
-2. Start a screen recording
+2. Setup a PDF to track your time stamps for how long you spend on each task
 3. Complete as many technical tasks as you can
-4. Submit your application to `apply@deeprent.ai`
-
-Note: To complete all tasks, we expect it should take less than 2 hours.
+4. Submit your application to `apply@deeprent.ai` according to the [Submission Instructions](#submission-instructions)
 
 ### Environment Setup
 
@@ -106,18 +116,6 @@ Once all services are running, you can access the application by opening your we
 http://localhost:8000
 ```
 
-### Screen Recording Tools
-
-**Mac Users:**
-<a href="https://support.apple.com/guide/quicktime-player/record-your-screen-qtp97b08e666/mac">
-  <img src="https://img.shields.io/badge/-For%20Mac%20Users:%20Use%20Quicktime%20Player-000000?logo=apple&logoColor=white"/>
-</a>
-
-**Windows Users:**
-<a href="https://www.microsoft.com/en-us/windows/learning-center/how-to-record-screen-windows-11">
-  <img src="https://img.shields.io/badge/-For%20Windows:%20Use%20The%20Game%20Bar-0078D4?logo=windows&logoColor=white"/>
-</a>
-
 ### Submission Instructions
 
 Email the following to `apply@deeprent.ai`
@@ -125,10 +123,9 @@ Email the following to `apply@deeprent.ai`
 **Subject:** [POINT TOTAL] - [TIME SPENT ON TASKS] - [FULL NAME]
 
 **Required Contents:**
-1. Screen recording link (Google Drive or YouTube preferred)
-2. What tasks were completed (in order of completion in the video)
-3. Code package (ZIP format)
-4. A good phone number we can text you at
+1. PDF containing a list the tasks you completed with time stamps in order of completion and include screenshots of your result for the task
+2. Code package (ZIP format)
+3. A good phone number we can text you at
 
 ## Technical Assessment Tasks
 
