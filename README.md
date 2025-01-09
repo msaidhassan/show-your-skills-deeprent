@@ -48,7 +48,7 @@ We are an equal opportunity employer, this means:
 1. Setup the environment
 2. Setup a PDF to track your time stamps for how long you spend on each task
 3. Complete as many technical tasks as you can
-4. Submit your application to `apply@deeprent.ai` according to the [Submission Instructions](#submission-instructions)
+4. Submit your application to `applytodeeprent@gmail.com` according to the [Submission Instructions](#submission-instructions)
 
 ### Environment Setup
 
