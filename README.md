@@ -118,7 +118,7 @@ http://localhost:8000
 
 ### Submission Instructions
 
-Email the following to `apply@deeprent.ai`
+Email the following to `applytodeeprent@gmail.com`
 
 **Subject:** [POINT TOTAL] - [TIME SPENT ON TASKS] - [FULL NAME]
 
