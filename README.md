@@ -184,7 +184,6 @@ RULES:
 **Requirements:**
 - Complete this task using the files called `prorated-calculator.blade.php` / `ProratedCalculator.php`
 - Create an interface where users can enter a move-in date and a monthly rent amount
-- Calculate the prorated rent amount based on the chosen date using rules from `/example/proration-rules.json`
 - The calculator should include the start and end date of the proration, the price per day, and the amount of days
 - Account for different month lengths and leap years in the calculation
 - Allow the user to export a PDF of the page
