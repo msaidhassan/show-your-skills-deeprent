@@ -118,7 +118,8 @@ http://localhost:8000
 
 ### Submission Instructions
 
-Email the following to `applytodeeprent@gmail.com`
+Email the following to `applytodeeprent@gmail.com`<br>
+**Please ensure that you correctly add up the points, the tasks have different point values based on their difficulty**
 
 **Subject:** [POINT TOTAL] - [TIME SPENT ON TASKS] - [FULL NAME]
 
