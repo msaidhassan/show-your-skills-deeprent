@@ -30,8 +30,7 @@
 
 DeepRent is well-funded and is looking for extremely talented PHP/Laravel developers to help pioneer software that will make human Property Managers extinct.
 
-You should be able to use Large Language Models (<a href="https://claude.ai"><img src="https://img.shields.io/badge/-Try%20Claude-7A56E3?logo=anthropic&logoColor=white" align="center"/></a>) to help build large and complex (yet maintainable) features in about one third the time that most competent people think possible.
-
+(<a href="https://claude.ai"><img src="https://img.shields.io/badge/-Try%20Claude-7A56E3?logo=anthropic&logoColor=white" align="center"/></a>, <a href="https://www.deepseek.com/"><img src="https://img.shields.io/badge/-Try%20DeepSeek-006AFF?logo=deepseek&logoColor=white" align="center"/></a>)
 Expect to work alongside talented, motivated, intense, and interesting co-workers.
 
 We are an equal opportunity employer, this means:
