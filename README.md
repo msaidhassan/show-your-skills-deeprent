@@ -85,7 +85,7 @@ chmod -R 777 storage bootstrap/cache
 
 4. Install PHP dependencies
 ```bash
-docker-compose exec app composer install
+composer install
 ```
 
 5. Create environment file
@@ -95,7 +95,7 @@ cp .env.example .env
 
 6. Generate application key
 ```bash
-docker-compose exec app php artisan key:generate
+php artisan key:generate
 ```
 
 7. Start Docker containers
