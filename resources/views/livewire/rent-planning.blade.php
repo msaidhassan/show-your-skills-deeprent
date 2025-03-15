@@ -54,7 +54,7 @@
                         <td class="border p-2 text-center">
                             ${{ number_format($rent, 2) }}
                             @if ($increasePercentage)
-                                <span class="text-red-500 font-semibold ml-1">({{ $previousRent_show }} +{{ $rent - $previousRent_show  }} )</span>
+                                <span class="text-red-500 font-semibold ml-1">({{ number_format($previousRent_show,2) }} +{{ number_format($rent - $previousRent_show ,2) }} )</span>
                             @endif
                         </td>
                         <td class="border p-2 text-center">
