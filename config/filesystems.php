@@ -72,5 +72,5 @@ return [
     'links' => [
         public_path('storage') => storage_path('app/public'),
     ],
-
+    'unit_data_json_path' => base_path('example/unit-data.json'),
 ];

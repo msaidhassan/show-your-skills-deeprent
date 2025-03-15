@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
       platforms:
-        - "linux/arm64"
+        - "linux/amd64"
     container_name: laravel_app
     restart: unless-stopped
     working_dir: /var/www/
@@ -12,10 +12,15 @@ services:
       - ./:/var/www
     networks:
       - laravel
-
+    #command: bash -c "npm run dev  & php-fpm"
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "5173:5173"
   nginx:
     image: nginx:alpine
-    platform: linux/arm64/v8  # Tested on Macbook Air with M1 chip
+    platform: linux/amd64 # Tested on Macbook Air with M1 chip
     container_name: laravel_nginx
     restart: unless-stopped
     ports:
@@ -28,7 +33,7 @@ services:
 
   db:
     image: mariadb:10.6
-    platform: linux/arm64/v8 # Tested on Macbook Air with M1 chip
+    platform: linux/amd64 # Tested on Macbook Air with M1 chip
     container_name: laravel_db
     restart: unless-stopped
     environment:
@@ -39,9 +44,14 @@ services:
     volumes:
       - dbdata:/var/lib/mysql/
     ports:
-      - "3306:3306"
+      - "3307:3306"
     networks:
       - laravel
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
 
 networks:
   laravel:
