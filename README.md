@@ -70,7 +70,7 @@ If you have issues installing, we highly recommend consulting:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/RedH11/show-your-skills-deeprent.git
+git clone https://github.com/msaidhassan/show-your-skills-deeprent.git
 ```
 
 2. Navigate to the project directory
@@ -78,29 +78,29 @@ git clone https://github.com/RedH11/show-your-skills-deeprent.git
 cd show-your-skills-deeprent
 ```
 
-3. Start Docker containers
-```bash
-docker-compose up -d
-```
-
-4. Set proper permissions
+3. Set proper permissions
 ```bash
 chmod -R 777 storage bootstrap/cache
 ```
 
-5. Install PHP dependencies
+4. Install PHP dependencies
 ```bash
 docker-compose exec app composer install
 ```
 
-6. Create environment file
+5. Create environment file
 ```bash
 cp .env.example .env
 ```
 
-7. Generate application key
+6. Generate application key
 ```bash
 docker-compose exec app php artisan key:generate
+```
+
+7. Start Docker containers
+```bash
+docker-compose up -d
 ```
 
 #### Next Steps
