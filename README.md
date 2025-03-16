@@ -90,9 +90,18 @@ composer install
 
 5. Create environment file
 ```bash
-cp .env.example .env
+cp .env.example .env 
 ```
-
+6. edit .env
+```
+edit vars for the database with
+DB_CONNECTION=mysql
+DB_HOST=laravel_db
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=laravel_user
+DB_PASSWORD=your_mysql_password 
+```
 6. Generate application key
 ```bash
 php artisan key:generate
