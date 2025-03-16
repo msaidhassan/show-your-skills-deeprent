@@ -25,8 +25,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/success-notification-button', SuccessNotificationButton::class);
 
-Route::get('/page-one', PageToggleOne::class)->name('page.one');
-Route::get('/page-two', PageToggleTwo::class)->name('page.two');
+Route::get('/page-toggle-one', PageToggleOne::class)->name('page.one');
+Route::get('/page-toggle-two', PageToggleTwo::class)->name('page.two');
 
 Route::get('/unit-data-table', UnitDataTable::class);
 Route::get('/unit-size-filter', UnitSizeFilter::class);
